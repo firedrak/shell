@@ -1,5 +1,5 @@
 #!/bin/sh
+sudo rm -rf crawler
 git clone https://github.com/firedrak/crawler.git
-cd crawler
-sudo time python3 main.py https://raw.githubusercontent.com/firedrak/spider/main/template.py
+sudo time python3 crawler/main.py https://raw.githubusercontent.com/firedrak/spider/main/template.py
 
