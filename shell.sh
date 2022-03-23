@@ -1,6 +1,6 @@
 #!/bin/sh
 sudo rm -rf crawler
-sudo apt autoremove
+sudo apt autoremove -y
 # sudo apt install python3-pip
 # sudo apt install redis-tools
 # sudo apt install redis-server
